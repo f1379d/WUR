@@ -19,7 +19,7 @@ from sklearn.cluster import KMeans
 
 # Read data from csv file
 df = pd.read_csv(
-    'https://raw.githubusercontent.com/f1379d/Dash/main/Times.csv')
+    'https://raw.githubusercontent.com/f1379d/WUR/main/Times.csv')
 
 # Create a list containing years in dataset
 years = list(pd.Series(df['Year']).unique())
